@@ -1,0 +1,23 @@
+# Python / FastAPI
+backend/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.db
+*.sqlite3
+
+# Node / Vite / Vitest
+node_modules/
+dist/
+coverage/
+
+# Environment Secrets (keep .env.example, ignore real .env files)
+.env
+backend/.env
+frontend/.env
+.env.local
+
+# OS & Editor
+.DS_Store
+Thumbs.db
